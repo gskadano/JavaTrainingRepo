@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Group3</groupId>
   <artifactId>JavaTraining</artifactId>
-  <version>21.1.0.0.001</version>
+  <version>21.1.0.0.002</version>
 
 	<dependencies>
 		<dependency>
