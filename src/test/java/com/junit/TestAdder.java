@@ -1,7 +1,8 @@
-package JavaTraining.JAVA_TRAINING;
+package com.junit;
 
 import org.junit.Test;
 
+import JavaTraining.JAVA_TRAINING.Adder;
 import junit.framework.TestCase;
 
 public class TestAdder extends TestCase {
