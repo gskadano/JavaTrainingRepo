@@ -3,19 +3,31 @@ package JavaTraining.JAVA_TRAINING;
 import java.util.function.Function;
 
 public class Power {
+//	public double getPower(double a) {
+//		return multiply(a, a, a);
+//
+//	}
 	
-	double val;
-	
-	public Power(double val) {
-		super();
-		getPower(val,val,val);
-	}
-	
-	public void getPower(double a, double b, double c) {
-		if(c > 1) {
-			getPower(a*b,b,c-1);
+	public double getMultiply(double base, double powerRaised) {
+		if(powerRaised != 0) {
+			return (base * getMultiply(base, powerRaised-1));
 		}
-		System.out.println(a);
+		else
+		return 1;
+		
 	}
+	
+
+//	public double multiply(double a, double b, double c) {
+//		
+//		if(c > 1.0) {
+//			multiply(a*b,b,c-1);
+//		}
+//		return a;
+//		
+//	}
+	
+	
+
 
 }
